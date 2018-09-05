@@ -202,6 +202,5 @@
   </Patch>
   <NugetDependency Id="Ntyjjua14MDNZRCxr0tL08" Location="VL.Core" Version="0.93.12-g6fa24bb419" />
   <NugetDependency Id="LbpRGlPlv3YLI6nWkluIgV" Location="VL.CoreLib" Version="0.93.12-g6fa24bb419" />
-  <NugetDependency Id="NtfGnEPMbIVNT8BrUKABJM" Location="VL.CoreLib.Standalone" Version="0.93.12-g6fa24bb419" />
   <DocumentDependency Id="OJIHGOnF2H3NyloN4FMiWc" Location="./VL.IO.NetMQ.vl" />
 </Document>
