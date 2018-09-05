@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VL.NetMQ", "VL.NetMQ.csproj", "{5DCA817B-AD50-4616-B51D-ACA1A88DF63B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VL.IO.NetMQ", "VL.IO.NetMQ.csproj", "{0D0950FF-47C8-4F3E-93AF-72C3B1C3DABD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DCA817B-AD50-4616-B51D-ACA1A88DF63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DCA817B-AD50-4616-B51D-ACA1A88DF63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DCA817B-AD50-4616-B51D-ACA1A88DF63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DCA817B-AD50-4616-B51D-ACA1A88DF63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0950FF-47C8-4F3E-93AF-72C3B1C3DABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0950FF-47C8-4F3E-93AF-72C3B1C3DABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0950FF-47C8-4F3E-93AF-72C3B1C3DABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0950FF-47C8-4F3E-93AF-72C3B1C3DABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

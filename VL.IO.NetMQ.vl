@@ -147,7 +147,7 @@
             <ControlPoint Id="DjCb9rTJgWxQOQxJiAdeY7" Bounds="389,685" />
             <ControlPoint Id="PEabTV3mxGoOff1JeYZeMo" Bounds="471,215" />
             <Node Bounds="477,255,118,13" Id="GEaFvjcus3ZNACxsUT3BI8">
-              <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+              <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToConnectionString" />
               </p:NodeReference>
@@ -274,7 +274,7 @@
                   <Pin Id="GdQ5WPX0x38Nna5wqA2eNa" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="377,446,71,22" Id="VORjKRXrqO9ObECPax1E0q">
-                  <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.NetMQ.vl">
+                  <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="UnSubscribeTopics" />
                   </p:NodeReference>
@@ -283,7 +283,7 @@
                   <Pin Id="M2MrGsdTESfPleBQIAX9h0" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="377,490,71,22" Id="VLSXSKLyjDpNYFqARke4Ki">
-                  <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.NetMQ.vl">
+                  <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="SubscribeTopics" />
                   </p:NodeReference>
@@ -404,7 +404,7 @@
                         <Patch Id="McJl2yak2ZpN58KyeBzSLT" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="CCUKeaXb78DMyypdiZ7JAV" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="785,947,115,13" Id="KB7Btu5vofMNxFT3Yqq8Rt">
-                          <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.NetMQ.vl">
+                          <p:NodeReference LastCategoryFullName="IO.NetMQ.Subscriber" LastSymbolSource="VL.IO.NetMQ.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationNode" Name="ReceiveDataFrames" />
                           </p:NodeReference>
@@ -800,7 +800,7 @@
             <ControlPoint Id="BaV3bXE1TxeNSVs9JZwjCQ" Bounds="507,73" />
             <ControlPoint Id="B4APSz1xN4eOqlHtvgKMSG" Bounds="437,79" />
             <Node Bounds="441,109,118,13" Id="TtGakqH0iA3PZABtqKFtvE">
-              <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+              <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ToConnectionString" />
               </p:NodeReference>
@@ -1171,7 +1171,7 @@
                 <Patch Id="EsgyuYMcSr7OOPYMlHoHra" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="JrYW4n42RlYMRr4X6x8Xfw" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="686,711,74,13" Id="HCzwLFdbQlBM0n8y42l87h">
-                  <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+                  <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="XPublisher" />
                   </p:NodeReference>
@@ -1182,7 +1182,7 @@
                   <Pin Id="MQeo41Bb7LhM5czE0wWpc2" Name="Socket" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="530,716,80,13" Id="RNv6jGfzYKmOun9jXQKeCk">
-                  <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+                  <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="XSubscriber" />
                   </p:NodeReference>
@@ -1386,7 +1386,7 @@
               <ControlPoint Id="Pmsy0b3jackOWkJSNgwG6Z" Bounds="528,177" />
               <ControlPoint Id="T8wqI8uboAaLg0E997pkUP" Bounds="458,183" />
               <Node Bounds="462,213,118,13" Id="SSTzM6nK3dHMuGVG8oWDd6">
-                <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+                <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToConnectionString" />
                 </p:NodeReference>
@@ -1526,7 +1526,7 @@
               <ControlPoint Id="T523ZFd4HMUNTZ6JEiSJv3" Bounds="510,90" />
               <ControlPoint Id="O8BGOql9MzaQGW8d38D2bz" Bounds="440,96" />
               <Node Bounds="444,126,118,13" Id="DSYVsdJOS9zNC4zXchk6XO">
-                <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.NetMQ.vl">
+                <p:NodeReference LastCategoryFullName="IO.NetMQ" LastSymbolSource="VL.IO.NetMQ.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ToConnectionString" />
                 </p:NodeReference>
@@ -1698,5 +1698,5 @@
   </Patch>
   <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="0.91.171-g530d7a1d93" />
   <NugetDependency Id="C5gvnEH6kFoPqD6Fsypkqk" Location="NetMQ" Version="4.0.0.1" />
-  <PlatformDependency Id="O5tYSTEVdZILp8eprwCDUN" Location="./src/bin/Release/netstandard2.0/VL.NetMQ.dll" />
+  <PlatformDependency Id="BuOLFASORXAOIz0O6l0E66" Location="./src/bin/Release/VL.IO.NetMQ.dll" />
 </Document>
