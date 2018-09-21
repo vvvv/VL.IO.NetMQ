@@ -826,7 +826,11 @@
           <Patch Id="CeXWUyqzFJ2Nt7lARKbNid" Name="Update" ManuallySortedPins="true">
             <Pin Id="IPcig8SaQyYN5XgYdk2dF6" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="&quot;localhost&quot;" />
             <Pin Id="NUm2xu4klkaMu5G58D62p3" Name="Transport" Kind="InputPin" Bounds="408,178" />
-            <Pin Id="BWAMxQbulE1L0MD6zK0Vt4" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="4444" />
+            <Pin Id="BWAMxQbulE1L0MD6zK0Vt4" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="5555">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="AIfGaEuIF8NQb0lNDaT8YG" Name="Bind" Kind="InputPin" />
             <Pin Id="D3YI8QfxM8rLCiZfMThClB" Comment="Comma-separated list of topics" Name="Topics" Kind="InputPin" />
             <Pin Id="JYLchpTOe5mLgFQN4UqRu0" Name="Topic" Kind="OutputPin" Bounds="617,1217" />
@@ -1233,7 +1237,11 @@
           <Patch Id="SYoZ67948PDPHasFjvdyZ1" Name="Create" ParticipatingElements="Hw6LCVxOlbmOelcHv81drm" />
           <Patch Id="BNQ8uFj0fBZLNEsOVL0VGb" Name="Update" ManuallySortedPins="true">
             <Pin Id="MS934UwfxrZMlEQDQKRXke" Name="Frontend Host" Kind="InputPin" Bounds="670,122" DefaultValue="&quot;&quot;" />
-            <Pin Id="FaRDZna2xwRNizf5Bktceb" Name="Frontend Port" Kind="InputPin" Bounds="753,113" />
+            <Pin Id="FaRDZna2xwRNizf5Bktceb" Name="Frontend Port" Kind="InputPin" Bounds="753,113" DefaultValue="4444">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="HYKOl9LTNqoLv2I7NQ8KdW" Name="Backend Host" Kind="InputPin" Bounds="639,648" />
             <Pin Id="K2zd2IUCK9iLMh0WUSOoR3" Name="Backend Port" Kind="InputPin" Bounds="883,125" DefaultValue="5555">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
