@@ -62,6 +62,7 @@
               <Pin Id="SDBoiATSEljMynrUrYtp5e" Name="Topics" Kind="InputPin" />
               <Pin Id="OGaPwHNXvUCMXCXC7TWcOR" Name="Topic" Kind="OutputPin" />
               <Pin Id="M02MICSrbNwPaufrQhouDo" Name="Data" Kind="OutputPin" />
+              <Pin Id="UswfkainaHDMiqHZ8Ygkv5" Name="On Received" Kind="OutputPin" />
             </Node>
             <Pad Id="FyXKm2kzCgfNHD6bNGyVUu" Comment="Port" Bounds="708,332,36,19" ShowValueBox="true" isIOBox="true" Value="4445">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
