@@ -1728,6 +1728,6 @@
     </Canvas>
   </Patch>
   <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="0.91.171-g530d7a1d93" />
-  <NugetDependency Id="C5gvnEH6kFoPqD6Fsypkqk" Location="NetMQ" Version="4.0.0.1" />
-  <PlatformDependency Id="FG9ypl1f5BzQX7k43bFFkS" Location="./src/bin/Debug/VL.IO.NetMQ.dll" />
+  <PlatformDependency Id="GZwjbySv6LQPi5PFWnDQKU" Location="./src/bin/Release/NetMQ.dll" />
+  <PlatformDependency Id="Js6DMaF8KelPW8UcnSv3sD" Location="./src/bin/Release/VL.IO.NetMQ.dll" />
 </Document>
