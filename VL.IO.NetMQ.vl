@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RfVI3mZdiMvQUhgjcNm8lp" Version="0.94">
+<Document xmlns:p="property" Id="RfVI3mZdiMvQUhgjcNm8lp" Version="0.93">
   <Patch Id="NHg5NVa32adL18Mo9Az8ZW">
     <Canvas Id="MGL9rOTfYRMMapym9ZgI5D" DefaultCategory="IO.NetMQ" CanvasType="FullCategory">
       <!--
@@ -31,7 +31,7 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="CYt8lCMDOvGMyP74c2Ajjw" Name="Force" Kind="InputPin" />
-              <Pin Id="VQ7csUl30zBPsFDXGOAHki" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True">
+              <Pin Id="VQ7csUl30zBPsFDXGOAHki" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -60,14 +60,14 @@
                   <Pin Id="ANGabSiyT1ZNCuuc2X7osH" Name="True" Kind="InputPin" />
                   <Pin Id="AuIfPq7VFRRLRFGpugFEI4" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="Al27DUIV59ELd7u1C1dFK9" Comment="Bind" Bounds="416,378,29,19" ShowValueBox="true" isIOBox="true" Value="@">
+                <Pad Id="Al27DUIV59ELd7u1C1dFK9" Comment="Bind" Bounds="416,378,29,19" ShowValueBox="true" isIOBox="true" Value="&quot;@&quot;">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="String" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:TypeAnnotation>
                   <p:ValueBoxSettings />
                 </Pad>
-                <Pad Id="FPVKTmKBbyqNTF4drWDAMI" Comment="Connect" Bounds="387,352,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
+                <Pad Id="FPVKTmKBbyqNTF4drWDAMI" Comment="Connect" Bounds="387,352,20,19" ShowValueBox="true" isIOBox="true" Value="&quot;&gt;&quot;">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -160,7 +160,7 @@
           <Patch Id="OrDsSDqaDaFPEhzsSLqZWs" Name="Create" />
           <Patch Id="PQTt1uBNYd0NDuh2uNJyxp" Name="Update" ManuallySortedPins="true">
             <Pin Id="Dp9u78C07O6NLTPaLuVIgr" Name="Transport" Kind="InputPin" Bounds="408,178" />
-            <Pin Id="Hh0Pj780S5tM8l3nsqxMhu" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="localhost" />
+            <Pin Id="Hh0Pj780S5tM8l3nsqxMhu" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="&quot;localhost&quot;" />
             <Pin Id="EUiVXHsWQnlMC1wkjpevZ1" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="4444" />
             <Pin Id="UG7A7rV8dxsOv99VXYcGOl" Name="Bind" Kind="InputPin" />
             <Pin Id="ThZgC1iyNfhPR2EHrTQ30j" Name="Socket" Kind="OutputPin" Bounds="389,685" />
@@ -223,7 +223,7 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="IrS3r0ScOEWNf46X4woVpW" Name="Force" Kind="InputPin" />
-              <Pin Id="QzcbGn3aKJsOAGEm8lZqHu" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True">
+              <Pin Id="QzcbGn3aKJsOAGEm8lZqHu" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -252,14 +252,14 @@
                   <Pin Id="IkP6KEf32dzLGIux9EYBzm" Name="True" Kind="InputPin" />
                   <Pin Id="ShJkO5uSzX1LREIiJVB10J" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="EXLnFDoeGNSOzLj87Q12OH" Comment="Bind" Bounds="417,286,29,19" ShowValueBox="true" isIOBox="true" Value="@">
+                <Pad Id="EXLnFDoeGNSOzLj87Q12OH" Comment="Bind" Bounds="417,286,29,19" ShowValueBox="true" isIOBox="true" Value="&quot;@&quot;">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="String" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:TypeAnnotation>
                   <p:ValueBoxSettings />
                 </Pad>
-                <Pad Id="UuYuu83jvhzNzCNEhyO8bM" Comment="Connect" Bounds="388,260,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
+                <Pad Id="UuYuu83jvhzNzCNEhyO8bM" Comment="Connect" Bounds="388,260,20,19" ShowValueBox="true" isIOBox="true" Value="&quot;&gt;&quot;">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -297,12 +297,12 @@
                     <Choice Kind="OperationCallFlag" Name="Split (String)" />
                   </p:NodeReference>
                   <Pin Id="ThjqEwZjZBvPGPtE4RYVJK" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="RnMPgeINaxtL68smoLRh0c" Name="Separator" Kind="InputPin" DefaultValue=",">
+                  <Pin Id="RnMPgeINaxtL68smoLRh0c" Name="Separator" Kind="InputPin" DefaultValue="&quot;,&quot;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
                   </Pin>
-                  <Pin Id="QpoEgu2nK4nLA8OlKNU1hA" Name="Options" Kind="InputPin" DefaultValue="RemoveEmptyEntries">
+                  <Pin Id="QpoEgu2nK4nLA8OlKNU1hA" Name="Options" Kind="InputPin" DefaultValue="&quot;RemoveEmptyEntries&quot;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="StringSplitOptions" />
                     </p:TypeAnnotation>
@@ -395,7 +395,7 @@
                         <Choice Kind="ApplicationStatefulRegion" Name="If" />
                         <CategoryReference Kind="Category" Name="Primitive" />
                       </p:NodeReference>
-                      <Pin Id="Jrnn1UwCjjOMLD0fIjfp45" Name="Condition" Kind="InputPin" DefaultValue="True">
+                      <Pin Id="Jrnn1UwCjjOMLD0fIjfp45" Name="Condition" Kind="InputPin" DefaultValue="true">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="Boolean" />
                         </p:TypeAnnotation>
@@ -434,7 +434,7 @@
                       <Pin Id="Fr17ElkSkRLNzsama4Iycn" Name="Input" Kind="StateInputPin" />
                       <Pin Id="S1yKJo7cckSMtlpHUA9QM8" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="QpzCL6UJjFLOT8knH5TURR" Bounds="782,845,94,22" ShowValueBox="true" isIOBox="true" Value="&lt; topic frame">
+                    <Pad Id="QpzCL6UJjFLOT8knH5TURR" Bounds="782,845,94,22" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; topic frame&quot;">
                       <p:TypeAnnotation>
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -443,7 +443,7 @@
                         <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                       </p:ValueBoxSettings>
                     </Pad>
-                    <Pad Id="VzOBoG35qZuNpp1SjGBfey" Bounds="916,952,103,22" ShowValueBox="true" isIOBox="true" Value="&lt; data frames">
+                    <Pad Id="VzOBoG35qZuNpp1SjGBfey" Bounds="916,952,103,22" ShowValueBox="true" isIOBox="true" Value="&quot;&lt; data frames&quot;">
                       <p:TypeAnnotation>
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -824,7 +824,7 @@
           </Canvas>
           <Patch Id="Rc5c48Iz7xUMk7zft8grkk" Name="Create" />
           <Patch Id="CeXWUyqzFJ2Nt7lARKbNid" Name="Update" ManuallySortedPins="true">
-            <Pin Id="IPcig8SaQyYN5XgYdk2dF6" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="localhost" />
+            <Pin Id="IPcig8SaQyYN5XgYdk2dF6" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="&quot;localhost&quot;" />
             <Pin Id="NUm2xu4klkaMu5G58D62p3" Name="Transport" Kind="InputPin" Bounds="408,178" />
             <Pin Id="BWAMxQbulE1L0MD6zK0Vt4" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="5555">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -1185,7 +1185,7 @@
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <FullNameCategoryReference ID="Primitive" />
               </p:NodeReference>
-              <Pin Id="B75cU4VHM97MsteWiN4TwE" Name="Condition" Kind="InputPin" DefaultValue="True">
+              <Pin Id="B75cU4VHM97MsteWiN4TwE" Name="Condition" Kind="InputPin" DefaultValue="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
@@ -1236,7 +1236,7 @@
           </Canvas>
           <Patch Id="SYoZ67948PDPHasFjvdyZ1" Name="Create" ParticipatingElements="Hw6LCVxOlbmOelcHv81drm" />
           <Patch Id="BNQ8uFj0fBZLNEsOVL0VGb" Name="Update" ManuallySortedPins="true">
-            <Pin Id="MS934UwfxrZMlEQDQKRXke" Name="Frontend Host" Kind="InputPin" Bounds="670,122" DefaultValue="" />
+            <Pin Id="MS934UwfxrZMlEQDQKRXke" Name="Frontend Host" Kind="InputPin" Bounds="670,122" DefaultValue="&quot;&quot;" />
             <Pin Id="FaRDZna2xwRNizf5Bktceb" Name="Frontend Port" Kind="InputPin" Bounds="753,113" DefaultValue="4444">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
@@ -1356,7 +1356,7 @@
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="OmzOYtxwKVWLDLiIZ76wVL" Name="Force" Kind="InputPin" />
-                <Pin Id="Vd41iyVaxZ3Ne0GL5hxaly" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True">
+                <Pin Id="Vd41iyVaxZ3Ne0GL5hxaly" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="true">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
@@ -1385,14 +1385,14 @@
                     <Pin Id="VEFJYcJZjgtPbbuisjA8qC" Name="True" Kind="InputPin" />
                     <Pin Id="DYyRksMYWk0Ot1Rqe85JwJ" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="EIqzG01ttVRMyV3g6Dxf2V" Comment="Bind" Bounds="416,378,29,19" ShowValueBox="true" isIOBox="true" Value="@">
+                  <Pad Id="EIqzG01ttVRMyV3g6Dxf2V" Comment="Bind" Bounds="416,378,29,19" ShowValueBox="true" isIOBox="true" Value="&quot;@&quot;">
                     <p:TypeAnnotation>
                       <Choice Kind="TypeFlag" Name="String" />
                       <FullNameCategoryReference ID="Primitive" />
                     </p:TypeAnnotation>
                     <p:ValueBoxSettings />
                   </Pad>
-                  <Pad Id="LWUxlxXsWFELEOi0QXoQ1b" Comment="Connect" Bounds="387,352,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
+                  <Pad Id="LWUxlxXsWFELEOi0QXoQ1b" Comment="Connect" Bounds="387,352,20,19" ShowValueBox="true" isIOBox="true" Value="&quot;&gt;&quot;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -1429,12 +1429,12 @@
             </Canvas>
             <Patch Id="OBgUjWsVVgfMfSN3u0T31y" Name="Create" />
             <Patch Id="BGjFzafNPa4LgLReSJKChG" Name="Update" ManuallySortedPins="true">
-              <Pin Id="Rhq3ecBlaSZM9TBmadhq0q" Name="Bind" Kind="InputPin" DefaultValue="True">
+              <Pin Id="Rhq3ecBlaSZM9TBmadhq0q" Name="Bind" Kind="InputPin" DefaultValue="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="MMnyIcWP3ERPbKwDSC4Bw7" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="localhost" />
+              <Pin Id="MMnyIcWP3ERPbKwDSC4Bw7" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="&quot;localhost&quot;" />
               <Pin Id="J2PiihOdeKILV62w2gNS9q" Name="Transport" Kind="InputPin" Bounds="408,178" />
               <Pin Id="ThfGbIQxCtoPMs8YkspFWL" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="4444" />
               <Pin Id="KI4kXAQOhi7PGwvOKCfqnN" Name="Socket" Kind="OutputPin" Bounds="389,685" />
@@ -1496,7 +1496,7 @@
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="A8OyxuT65a5NN56BhVUS4l" Name="Force" Kind="InputPin" />
-                <Pin Id="JQIYs5teGBtLvgwyBOXzYQ" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="True">
+                <Pin Id="JQIYs5teGBtLvgwyBOXzYQ" Name="Dispose Cached Outputs" Kind="InputPin" DefaultValue="true">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
@@ -1525,14 +1525,14 @@
                     <Pin Id="UhQWdfznMsaLXPwnMDwp4S" Name="True" Kind="InputPin" />
                     <Pin Id="OoWfJeB8UPtOngNKx9BFea" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="QyhA3dhbuVcPwqehvc1pjn" Comment="Bind" Bounds="417,286,29,19" ShowValueBox="true" isIOBox="true" Value="@">
+                  <Pad Id="QyhA3dhbuVcPwqehvc1pjn" Comment="Bind" Bounds="417,286,29,19" ShowValueBox="true" isIOBox="true" Value="&quot;@&quot;">
                     <p:TypeAnnotation>
                       <Choice Kind="TypeFlag" Name="String" />
                       <FullNameCategoryReference ID="Primitive" />
                     </p:TypeAnnotation>
                     <p:ValueBoxSettings />
                   </Pad>
-                  <Pad Id="RVQ1yK4ZVKVPmwXIclvyar" Comment="Connect" Bounds="388,260,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
+                  <Pad Id="RVQ1yK4ZVKVPmwXIclvyar" Comment="Connect" Bounds="388,260,20,19" ShowValueBox="true" isIOBox="true" Value="&quot;&gt;&quot;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -1569,12 +1569,12 @@
             </Canvas>
             <Patch Id="EApB5BVigQKNYr1Bse4XyK" Name="Create" />
             <Patch Id="R9Bz4JgR7jONigArPEjaY2" Name="Update" ManuallySortedPins="true">
-              <Pin Id="EyTxkJjPlXPPp4A2r6NRom" Name="Bind" Kind="InputPin" DefaultValue="True">
+              <Pin Id="EyTxkJjPlXPPp4A2r6NRom" Name="Bind" Kind="InputPin" DefaultValue="true">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="DRoyYVATxHLNytTzS3Os5w" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="localhost" />
+              <Pin Id="DRoyYVATxHLNytTzS3Os5w" Name="Host" Kind="InputPin" Bounds="540,162" DefaultValue="&quot;localhost&quot;" />
               <Pin Id="LMwi6tjnThgNZ8xHlEzv3p" Name="Transport" Kind="InputPin" Bounds="408,178" />
               <Pin Id="Pe1VfM9VAmyN9opIOXXb99" Name="Port" Kind="InputPin" Bounds="601,124" DefaultValue="4444" />
               <Pin Id="AEUJmj7dLC7M3Sp9Nsjipw" Name="Socket" Kind="OutputPin" Bounds="381,645" />
@@ -1626,7 +1626,7 @@
           <ProcessDefinition Id="VH1OgDMn66vPvyamLDcj8R" IsHidden="true" />
         </Patch>
       </Node>
-      <Pad Id="B1Po44Hh5YlOwEr4oaynPy" Bounds="802,166,62,22" ShowValueBox="true" isIOBox="true" Value="Imports:">
+      <Pad Id="B1Po44Hh5YlOwEr4oaynPy" Bounds="802,166,62,22" ShowValueBox="true" isIOBox="true" Value="&quot;Imports:&quot;">
         <p:TypeAnnotation>
           <Choice Kind="TypeFlag" Name="String" />
         </p:TypeAnnotation>
@@ -1660,13 +1660,13 @@
                 <Choice Kind="OperationCallFlag" Name="+" />
               </p:NodeReference>
               <Pin Id="PdRUyalOwq0QEucD8rV4KZ" Name="Input" Kind="InputPin" />
-              <Pin Id="V0sAysHE7QkMuZJ3Qiyhzl" Name="Input 2" Kind="InputPin" DefaultValue="://">
+              <Pin Id="V0sAysHE7QkMuZJ3Qiyhzl" Name="Input 2" Kind="InputPin" DefaultValue="&quot;://&quot;">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="MUqwvjLaqNyPgnDgOb7dwk" Name="Input 3" Kind="InputPin" />
-              <Pin Id="GbbbqzqYwtiLCsxGqfu4Ag" Name="Input 4" Kind="InputPin" DefaultValue=":">
+              <Pin Id="GbbbqzqYwtiLCsxGqfu4Ag" Name="Input 4" Kind="InputPin" DefaultValue="&quot;:&quot;">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -1702,7 +1702,7 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="GZAC5sSVcr8LT8trOzKJLf" Name="Output" Kind="OutputPin" Bounds="758,584" />
-            <Pin Id="OCCQLFFZr1YL9cS93LnvOD" Name="Host" Kind="InputPin" Bounds="771,460" DefaultValue="localhost">
+            <Pin Id="OCCQLFFZr1YL9cS93LnvOD" Name="Host" Kind="InputPin" Bounds="771,460" DefaultValue="&quot;localhost&quot;">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1728,6 +1728,6 @@
     </Canvas>
   </Patch>
   <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="0.91.171-g530d7a1d93" />
+  <NugetDependency Id="C5gvnEH6kFoPqD6Fsypkqk" Location="NetMQ" Version="4.0.0.1" />
   <PlatformDependency Id="FG9ypl1f5BzQX7k43bFFkS" Location="./src/bin/Debug/VL.IO.NetMQ.dll" />
-  <PlatformDependency Id="VnpfzNM2K3fQQuMs0GpDb0" Location="../../CoNature/Bin/Windows/Debug/NetMQ.dll" />
 </Document>
