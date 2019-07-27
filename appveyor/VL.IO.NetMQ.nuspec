@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.IO.NetMQ</id>
+    <version>$version$</version>
+    <title>VL.IO.NetMQ</title>
+    <authors>vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>http://vvvv.org</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Set of nodes to use NetMQ in VL</summary>
+    <description>NetMQ for VL</description>
+    <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
+    <tags>VL, zeromq, 0mq, netmq</tags>
+    <dependencies>
+		<dependency id="NetMQ" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+  </files>
+</package>
