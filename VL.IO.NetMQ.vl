@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="RfVI3mZdiMvQUhgjcNm8lp" LanguageVersion="2019.1.0-0509-g9ecba979a8" Version="0.128">
   <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="0.91.171-g530d7a1d93" />
   <PlatformDependency Id="Js6DMaF8KelPW8UcnSv3sD" Location="./src/bin/Release/VL.IO.NetMQ.dll" />
-  <NugetDependency Id="FIWuAlSfxxXNgNWN3keyDk" Location="NetMQ" Version="4.0.0.207" />
+  <NugetDependency Id="FIWuAlSfxxXNgNWN3keyDk" Location="NetMQ" Version="4.0.0.1" />
   <Patch Id="NHg5NVa32adL18Mo9Az8ZW">
     <Canvas Id="MGL9rOTfYRMMapym9ZgI5D" DefaultCategory="IO.NetMQ" CanvasType="FullCategory">
       <!--

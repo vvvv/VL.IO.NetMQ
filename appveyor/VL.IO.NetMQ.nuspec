@@ -13,7 +13,7 @@
     <copyright>Copyright © 2019 by vvvv group. All rights reserved.</copyright>
     <tags>VL, zeromq, 0mq, netmq</tags>
     <dependencies>
-		<dependency id="NetMQ" version="[4.0.0.207]" />
+		<dependency id="NetMQ" version="[4.0.0.1]" />
     </dependencies>
   </metadata>
   <files>
