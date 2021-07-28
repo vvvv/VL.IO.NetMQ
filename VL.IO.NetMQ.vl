@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="RfVI3mZdiMvQUhgjcNm8lp" LanguageVersion="2019.1.0-0509-g9ecba979a8" Version="0.128">
-  <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="0.91.171-g530d7a1d93" />
+<Document xmlns:p="property" Id="RfVI3mZdiMvQUhgjcNm8lp" LanguageVersion="2021.4.0.252" Version="0.128">
+  <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="2021.4.0-0252-g78e04f597a" />
   <PlatformDependency Id="Js6DMaF8KelPW8UcnSv3sD" Location="./src/bin/Release/VL.IO.NetMQ.dll" />
   <NugetDependency Id="FIWuAlSfxxXNgNWN3keyDk" Location="NetMQ" Version="4.0.0.1" />
   <Patch Id="NHg5NVa32adL18Mo9Az8ZW">
@@ -28,7 +28,7 @@
               <Pin Id="OesoD15BC4INeTQWcyMx38" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="363,305,145,261" Id="NwYL6sFPCQDPOiunS5G64k">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -55,12 +55,12 @@
                 <Node Bounds="375,412,45,13" Id="PwXZBamlhhHPOMYH9AMS4s">
                   <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Switch" />
-                    <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                    <FullNameCategoryReference ID="Control" />
                   </p:NodeReference>
                   <Pin Id="MdOjO50edwKNO6e3Bo3SYp" Name="Condition" Kind="InputPin" />
-                  <Pin Id="Ddc7pbnv8Y1L9jeA7qIPB0" Name="False" Kind="InputPin" />
-                  <Pin Id="ANGabSiyT1ZNCuuc2X7osH" Name="True" Kind="InputPin" />
+                  <Pin Id="Ddc7pbnv8Y1L9jeA7qIPB0" Name="Input" Kind="InputPin" />
+                  <Pin Id="ANGabSiyT1ZNCuuc2X7osH" Name="Input 2" Kind="InputPin" />
                   <Pin Id="AuIfPq7VFRRLRFGpugFEI4" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Pad Id="Al27DUIV59ELd7u1C1dFK9" Comment="Bind" Bounds="416,376,29,19" ShowValueBox="true" isIOBox="true" Value="@">
@@ -68,7 +68,6 @@
                     <Choice Kind="TypeFlag" Name="String" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:TypeAnnotation>
-                  <p:ValueBoxSettings />
                 </Pad>
                 <Pad Id="FPVKTmKBbyqNTF4drWDAMI" Comment="Connect" Bounds="387,350,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -220,7 +219,7 @@
               <Pin Id="S5SCXWUNr43OUiIqSj2RTM" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="364,209,178,329" Id="Ur1tzl311U6Mj3a0XtSPhv">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -247,12 +246,12 @@
                 <Node Bounds="376,320,45,13" Id="MFHcbspoJOoMPGAiE8d4Ij">
                   <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="Switch" />
-                    <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                    <FullNameCategoryReference ID="Control" />
                   </p:NodeReference>
                   <Pin Id="BKanfnUcEzdOs4ql2Po7zr" Name="Condition" Kind="InputPin" />
-                  <Pin Id="Ul0Gh6MH3oyQDIHUAsb8pI" Name="False" Kind="InputPin" />
-                  <Pin Id="IkP6KEf32dzLGIux9EYBzm" Name="True" Kind="InputPin" />
+                  <Pin Id="Ul0Gh6MH3oyQDIHUAsb8pI" Name="Input" Kind="InputPin" />
+                  <Pin Id="IkP6KEf32dzLGIux9EYBzm" Name="Input 2" Kind="InputPin" />
                   <Pin Id="ShJkO5uSzX1LREIiJVB10J" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Pad Id="EXLnFDoeGNSOzLj87Q12OH" Comment="Bind" Bounds="417,284,29,19" ShowValueBox="true" isIOBox="true" Value="@">
@@ -260,7 +259,6 @@
                     <Choice Kind="TypeFlag" Name="String" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:TypeAnnotation>
-                  <p:ValueBoxSettings />
                 </Pad>
                 <Pad Id="UuYuu83jvhzNzCNEhyO8bM" Comment="Connect" Bounds="388,258,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -321,13 +319,19 @@
             </Node>
             <ControlPoint Id="LxHDqoerQ3mPvre292DxPm" Bounds="375,176" />
             <Node Bounds="550,734,500,505" Id="G45w3tQlY9lNijTb8IybBs">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationFlag" Name="Repeat" />
                 <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="UiblvveZNfUMVbeOC43PwO" Name="Iteration Count" Kind="InputPin" />
               <Pin Id="RmMvS26yg70Pi2EiDkUFlF" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="GYaJDzptesfO8y4HnlKER9" Bounds="718,741" Alignment="Top" />
+              <ControlPoint Id="OMPvYU5Mvu3Mc9Ke0kjcsL" Bounds="705,1233" Alignment="Bottom" />
+              <ControlPoint Id="VJg0RnBHVoOMtMfdsnZzOb" Bounds="891,741" Alignment="Top" />
+              <ControlPoint Id="CTN2TdtcjCpPQbFOT9GnTT" Bounds="837,1233" Alignment="Bottom" />
+              <ControlPoint Id="OIcpGKXCknoNePWlzeePXX" Bounds="666,741" Alignment="Top" />
+              <ControlPoint Id="UML5Wum6AGKPQ2Q0gWGuri" Bounds="597,1233" Alignment="Bottom" />
               <Patch Id="M5wL3kn1oyKQW4CSc8mkqW" ManuallySortedPins="true">
                 <Patch Id="C8FFS1Vspu2LZNnry2Pdrp" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="GVZQaSW7TmDM0pb2lJ6IEQ" Name="Update" ManuallySortedPins="true">
@@ -354,12 +358,16 @@
                   <Pin Id="VXuzKPhze2gNADq80COKHy" Name="Has In" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="657,808,381,397" Id="VcJNqVLKa2GMSEgIIxeWG9">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:NodeReference>
                   <Pin Id="BkgLrGJEGFLMl3b31ejlas" Name="Condition" Kind="InputPin" />
+                  <ControlPoint Id="QtS8EOgwEKQPqTGd2ShUmI" Bounds="705,1168" Alignment="Bottom" />
+                  <ControlPoint Id="M17BIxDEUGXLlPYkUDqQhs" Bounds="720,815" Alignment="Top" />
+                  <ControlPoint Id="NvLUhmgoabRPhtp8LjFONZ" Bounds="895,815" Alignment="Top" />
+                  <ControlPoint Id="Eu8YqG1RHTRLDOxOkffczU" Bounds="837,1168" Alignment="Bottom" />
                   <Patch Id="MVP0xZ3z3GHOJtx0Z8i7b4" ManuallySortedPins="true">
                     <Patch Id="RBf4W11LH3AOaOoDhUXo6l" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="Odmza1zp3uGMM6seJqpumQ" Name="Then" ManuallySortedPins="true" />
@@ -393,7 +401,7 @@
                       <Pin Id="RFaZwguvB3NNkNvJQFkARV" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="773,910,144,82" Id="S71UiA6pz4QMGupapxRFBp">
-                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="If" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -448,10 +456,6 @@
                       <Pin Id="OXJYoPeoTZ1O8o8o4uoS3v" Name="Result" Kind="OutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="QtS8EOgwEKQPqTGd2ShUmI" Bounds="705,1168" Alignment="Bottom" />
-                  <ControlPoint Id="M17BIxDEUGXLlPYkUDqQhs" Bounds="720,815" Alignment="Top" />
-                  <ControlPoint Id="NvLUhmgoabRPhtp8LjFONZ" Bounds="895,815" Alignment="Top" />
-                  <ControlPoint Id="Eu8YqG1RHTRLDOxOkffczU" Bounds="837,1168" Alignment="Bottom" />
                 </Node>
                 <Node Bounds="607,1063" Id="NXIV5V3Db7dNBtxdnzAjuZ">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
@@ -463,12 +467,6 @@
                   <Pin Id="MULZir9PhoiMFSxlSLKWfV" Name="Output" Kind="StateOutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="GYaJDzptesfO8y4HnlKER9" Bounds="718,741" Alignment="Top" />
-              <ControlPoint Id="OMPvYU5Mvu3Mc9Ke0kjcsL" Bounds="705,1233" Alignment="Bottom" />
-              <ControlPoint Id="VJg0RnBHVoOMtMfdsnZzOb" Bounds="891,741" Alignment="Top" />
-              <ControlPoint Id="CTN2TdtcjCpPQbFOT9GnTT" Bounds="837,1233" Alignment="Bottom" />
-              <ControlPoint Id="OIcpGKXCknoNePWlzeePXX" Bounds="666,741" Alignment="Top" />
-              <ControlPoint Id="UML5Wum6AGKPQ2Q0gWGuri" Bounds="597,1233" Alignment="Bottom" />
             </Node>
             <Pad Id="HpqKyw78e7xPvQpULC8mwO" Comment="Forever" Bounds="621,664,36,19" ShowValueBox="true" isIOBox="true" Value="9999">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -489,12 +487,12 @@
             <Node Bounds="551,698,45,13" Id="JHOMRnM5rZxOSRKLzLYCWG">
               <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Switch" />
-                <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                <FullNameCategoryReference ID="Control" />
               </p:NodeReference>
               <Pin Id="TQ0KbU0CRjdQYVqbHEhaF5" Name="Condition" Kind="InputPin" />
-              <Pin Id="I9bJFcVph75QKMuMblphMP" Name="False" Kind="InputPin" />
-              <Pin Id="Tc0wWqWq2IsM8W72emjKin" Name="True" Kind="InputPin" />
+              <Pin Id="I9bJFcVph75QKMuMblphMP" Name="Input" Kind="InputPin" />
+              <Pin Id="Tc0wWqWq2IsM8W72emjKin" Name="Input 2" Kind="InputPin" />
               <Pin Id="T5nz6Sqe61eMN9dQ2fI44a" Name="Output" Kind="OutputPin" />
             </Node>
             <Pad Id="EPpfK2FSj8sOBDCADdBMG9" SlotId="IBXMq91aTv1LmngyNGOgzk" Bounds="649,374" />
@@ -511,7 +509,7 @@
               </p:NodeReference>
               <Patch Id="HrPgSlTP2cONDllITFGK3b">
                 <Node Bounds="1255,288,128,129" Id="QTg4gAZmc3rNBRb3NTW4Kb">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -573,7 +571,7 @@
                 </Node>
                 <Link Id="JV6wy0mA9gwMLQERSI84Sw" Ids="OPCgnYGNpL6OuqTNHXpH4z,SNKMKAi9lMOQZMByXzBdrq" />
                 <Node Bounds="1283,522,138,81" Id="N2KLVV9nBW6N8ZKTtCGW8d">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -627,7 +625,7 @@
               </p:NodeReference>
               <Patch Id="NMjqdkdnAMKLshx5eYmRX7">
                 <Node Bounds="1537,292,128,129" Id="Sbf7KqhQXv1QPymYfXqJSh">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -712,13 +710,13 @@
     ************************ ReceiveDataFrames (Internal) ************************
 
 -->
-            <Node Name="ReceiveDataFrames (Internal)" Bounds="1184,814,405,356" Id="U7qgFaeL6DeMgrg4yvavNo">
+            <Node Name="ReceiveDataFrames (Internal)" Bounds="1184,814,320,356" Id="U7qgFaeL6DeMgrg4yvavNo">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="OperationDefinition" Name="Operation" />
               </p:NodeReference>
               <Patch Id="KbHjqeiGqapMNlUbBIoij2">
-                <Node Bounds="1231,898,341,207" Id="TeyySzI0w8DPvv6t0xlpEp">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Node Bounds="1231,898,234,208" Id="TeyySzI0w8DPvv6t0xlpEp">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -731,7 +729,7 @@
                       <Pin Id="CZm9jtgCamfOcDBS7meoqb" Name="Break" Kind="OutputPin" />
                     </Patch>
                     <Patch Id="LQ5tmIO8mn7LKfwpPL2KjV" Name="Dispose" ManuallySortedPins="true" />
-                    <Node Bounds="1352,922,112,26" Id="IOA0gjKKPhbLdY1MULszST">
+                    <Node Bounds="1308,927,112,26" Id="IOA0gjKKPhbLdY1MULszST">
                       <p:NodeReference LastCategoryFullName="NetMQ.ReceivingSocketExtensions" LastSymbolSource="NetMQ.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ReceiveFrameBytes" />
@@ -751,7 +749,7 @@
                       <Pin Id="PmDhs3dyZMiNSuwnFhHTo5" Name="Item" Kind="InputPin" />
                       <Pin Id="MwV7E8lrY1dMnTvujzcuST" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <Node Bounds="1522,999,37,19" Id="Oqv5pxdN3WINfGkACosYq6">
+                    <Node Bounds="1415,998,37,19" Id="Oqv5pxdN3WINfGkACosYq6">
                       <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="NOT" />
@@ -759,16 +757,7 @@
                       <Pin Id="TKkZE1IPAWLOZDl3XwBBcR" Name="Input" Kind="StateInputPin" />
                       <Pin Id="AIfLqPJUdgBOYrfWUtRB1d" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <ControlPoint Id="Ax3nTo09E0LLN2IYr7oL60" Bounds="1524,1049" />
-                    <Node Bounds="1328,976,83,26" Id="GFJ78Dl6iZSQbZ0I4R1Ep4">
-                      <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                        <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
-                      </p:NodeReference>
-                      <Pin Id="T6exR0jeInuPrTW85BKlYo" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="Rf0g9Glr8w9OUqkmq5FG9U" Name="Result" Kind="OutputPin" />
-                    </Node>
+                    <ControlPoint Id="Ax3nTo09E0LLN2IYr7oL60" Bounds="1417,1048" />
                   </Patch>
                   <ControlPoint Id="Hn4UxgM40ZsLz5UITqIpgw" Bounds="1245,905" Alignment="Top" />
                   <ControlPoint Id="SzvpqURLEUvMCtz9yc91cH" Bounds="1249,1100" Alignment="Bottom" />
@@ -780,7 +769,7 @@
                 </Pad>
                 <Link Id="SeEb71AVSIVMpLrmo9p6S5" Ids="QlEdqjjLPGaL95BvHHaf0e,VUg7KIOFx47NwYmWpu2BCC" />
                 <Link Id="B8z1LqXqwisQV0s4cPRT2u" Ids="Vaxl1KDvfjeOLNeREZEAIK,DhS27rXv6Y3NRweMAqxRVV" />
-                <ControlPoint Id="Vaxl1KDvfjeOLNeREZEAIK" Bounds="1353,849" />
+                <ControlPoint Id="Vaxl1KDvfjeOLNeREZEAIK" Bounds="1310,866" />
                 <Link Id="P9HmVkucLmqOSMtj0SJF4r" Ids="JZWr9SgvYcWPcslA6m2URC,Vaxl1KDvfjeOLNeREZEAIK" IsHidden="true" />
                 <Link Id="BjOCwzmmGicPhJnawpiwQ5" Ids="Hn4UxgM40ZsLz5UITqIpgw,SzvpqURLEUvMCtz9yc91cH" IsFeedback="true" />
                 <Link Id="R9dQLWcoSWpMI4aPtCI6Yd" Ids="Hn4UxgM40ZsLz5UITqIpgw,DupjjurNiQQPoifKnCOYLA" />
@@ -792,13 +781,12 @@
                 <Link Id="Ls5oh54i1URPC7verRSUN9" Ids="AIfLqPJUdgBOYrfWUtRB1d,Ax3nTo09E0LLN2IYr7oL60" />
                 <Link Id="LS4c4E29bHvOiZrvup4TLI" Ids="SzvpqURLEUvMCtz9yc91cH,TaLgcwlhCMQP3QMKJvwWMz" />
                 <Link Id="Us18OOIXQnGOtFnzt7pZYE" Ids="UlVx7EepEYRLBNUhtt8q0N,Hn4UxgM40ZsLz5UITqIpgw" />
-                <ControlPoint Id="UlVx7EepEYRLBNUhtt8q0N" Bounds="1475,852" />
+                <ControlPoint Id="UlVx7EepEYRLBNUhtt8q0N" Bounds="1415,867" />
                 <Link Id="HyCr3TFa0ZRNaEUJce7JEY" Ids="LvOxekoJnxbPpTVm3QydQX,UlVx7EepEYRLBNUhtt8q0N" IsHidden="true" />
                 <Pin Id="JZWr9SgvYcWPcslA6m2URC" Name="Input" Kind="InputPin" Bounds="941,739" />
                 <Pin Id="LvOxekoJnxbPpTVm3QydQX" Name="Spread Builder" Kind="InputPin" Bounds="1405,832" />
                 <Pin Id="Bqr5SVipOT6N0FYDaw1woH" Name="Output" Kind="OutputPin" Bounds="1022,960" />
-                <Link Id="NmnfEvq8qVnOYDSt1WED6t" Ids="B59EhfEj3gqLRawXkt54zQ,T6exR0jeInuPrTW85BKlYo" />
-                <Link Id="MzXhlk7MhRWOIzoAaondhq" Ids="Rf0g9Glr8w9OUqkmq5FG9U,PmDhs3dyZMiNSuwnFhHTo5" />
+                <Link Id="LM2RsB5MDXWNiq1zWKZmqo" Ids="B59EhfEj3gqLRawXkt54zQ,PmDhs3dyZMiNSuwnFhHTo5" />
               </Patch>
             </Node>
             <Node Bounds="781,678,66,26" Id="PzOTaSQnlRQMMWDd0wol23">
@@ -1014,7 +1002,7 @@
               <Pin Id="ENhanjLrFWrOkJXRYpdS3G" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="713,332,201,306" Id="NgaaJ7foSOTNzxjoKBIYta">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1106,7 +1094,7 @@
               <Pin Id="JGgEITND3MoQWVQeGkiZaK" Name="Not Assigned" Kind="OutputPin" />
             </Node>
             <Node Bounds="585,917,208,218" Id="UL1JG2qw6IIPp49mQHx2X2">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1185,7 +1173,7 @@
             <Pad Id="OC4T5YyH3X1MsuWMlcLQtM" SlotId="RjM0qwUrkRwPuzEsR0z47O" Bounds="860,306" />
             <Pad Id="VAdei32cQH0PZqXMXSYBtT" SlotId="RGptRHYqyrFM7Uyl1Vtf6N" Bounds="918,306" />
             <Node Bounds="455,682,344,67" Id="LE9aCJWYbgVMMHXPMtYbzY">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -1355,7 +1343,7 @@
                 <Pin Id="GJw99O9z1NQOYiAQXQVk2P" Name="Output" Kind="StateOutputPin" />
               </Node>
               <Node Bounds="363,305,145,261" Id="PsvmJKFpV5hLj4AaRgnyaf">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -1382,12 +1370,12 @@
                   <Node Bounds="375,412,45,13" Id="VJTv3XwHhjmOiZxDzmApPn">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Switch" />
-                      <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                      <FullNameCategoryReference ID="Control" />
                     </p:NodeReference>
                     <Pin Id="QTnIZj9hxQCPWQNXXZ3Gs0" Name="Condition" Kind="InputPin" />
-                    <Pin Id="QudO6NOJY3XNVEUXfN1ZL9" Name="False" Kind="InputPin" />
-                    <Pin Id="VEFJYcJZjgtPbbuisjA8qC" Name="True" Kind="InputPin" />
+                    <Pin Id="QudO6NOJY3XNVEUXfN1ZL9" Name="Input" Kind="InputPin" />
+                    <Pin Id="VEFJYcJZjgtPbbuisjA8qC" Name="Input 2" Kind="InputPin" />
                     <Pin Id="DYyRksMYWk0Ot1Rqe85JwJ" Name="Output" Kind="OutputPin" />
                   </Node>
                   <Pad Id="EIqzG01ttVRMyV3g6Dxf2V" Comment="Bind" Bounds="416,376,29,19" ShowValueBox="true" isIOBox="true" Value="@">
@@ -1395,7 +1383,6 @@
                       <Choice Kind="TypeFlag" Name="String" />
                       <FullNameCategoryReference ID="Primitive" />
                     </p:TypeAnnotation>
-                    <p:ValueBoxSettings />
                   </Pad>
                   <Pad Id="LWUxlxXsWFELEOi0QXoQ1b" Comment="Connect" Bounds="387,350,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -1495,7 +1482,7 @@
                 <Pin Id="FxSJn5H3bIXLRn32vcCMbP" Name="Output" Kind="StateOutputPin" />
               </Node>
               <Node Bounds="364,210,134,247" Id="FB7OzAy6S9sLg6c2T1kxvv">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -1522,12 +1509,12 @@
                   <Node Bounds="376,320,45,13" Id="BxLoP6c4WB0OyeJTuZA9yc">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Switch" />
-                      <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                      <FullNameCategoryReference ID="Control" />
                     </p:NodeReference>
                     <Pin Id="CHTMF72wn5lNHyBI1JawRL" Name="Condition" Kind="InputPin" />
-                    <Pin Id="Jho582tFTfMLnPDJF9CNMe" Name="False" Kind="InputPin" />
-                    <Pin Id="UhQWdfznMsaLXPwnMDwp4S" Name="True" Kind="InputPin" />
+                    <Pin Id="Jho582tFTfMLnPDJF9CNMe" Name="Input" Kind="InputPin" />
+                    <Pin Id="UhQWdfznMsaLXPwnMDwp4S" Name="Input 2" Kind="InputPin" />
                     <Pin Id="OoWfJeB8UPtOngNKx9BFea" Name="Output" Kind="OutputPin" />
                   </Node>
                   <Pad Id="QyhA3dhbuVcPwqehvc1pjn" Comment="Bind" Bounds="417,284,29,19" ShowValueBox="true" isIOBox="true" Value="@">
@@ -1535,7 +1522,6 @@
                       <Choice Kind="TypeFlag" Name="String" />
                       <FullNameCategoryReference ID="Primitive" />
                     </p:TypeAnnotation>
-                    <p:ValueBoxSettings />
                   </Pad>
                   <Pad Id="RVQ1yK4ZVKVPmwXIclvyar" Comment="Connect" Bounds="388,258,20,19" ShowValueBox="true" isIOBox="true" Value="&gt;">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
