@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\lib</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NetMQ">
       <Version>4.0.0.1</Version>
