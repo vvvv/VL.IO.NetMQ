@@ -2,13 +2,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
     <OutputPath>..\lib</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NetMQ">
-      <Version>4.0.0.1</Version>
+      <Version>4.0.1.6</Version>
     </PackageReference>
+    <PackageReference Include="VL.Core" Version="2021.3.2" Pack="false" />
   </ItemGroup>
 </Project>

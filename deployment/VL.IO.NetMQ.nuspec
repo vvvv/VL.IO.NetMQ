@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.IO.NetMQ</id>
-    <version>0.2.0-alpha</version>
+    <version>0.3.0-alpha</version>
     <title>VL.IO.NetMQ</title>
     <authors>vvvv</authors>
     <owners>vvvv</owners>
@@ -12,7 +12,7 @@
     <description>Set of nodes to work with NetMQ aka ZeroMQ for .NET</description>
     <tags>VL, zeromq, 0mq</tags>
 	<dependencies>
-      <dependency id="NetMQ" version="[4.0.0.1]" />
+      <dependency id="NetMQ" version="[4.0.1.16]" />
     </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
@@ -20,6 +20,6 @@
     <file src="..\lib\net472\*.dll" target="lib\net472\" exclude="" />
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
-	<file src="nugeticon.png" target="icon\" />
+	  <file src="nugeticon.png" target="icon\" />
   </files>
 </package>
