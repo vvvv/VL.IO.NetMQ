@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Set of nodes to work with NetMQ aka ZeroMQ for .NET</summary>
     <description>Set of nodes to work with NetMQ aka ZeroMQ for .NET</description>
-    <tags>VL, zeromq, 0mq</tags>
+    <tags>VL, zeromq, 0mq, zmq</tags>
 	  <dependencies>
       <dependency id="NetMQ" version="4.0.1.6" />
     </dependencies>
