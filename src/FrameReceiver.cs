@@ -10,7 +10,7 @@ namespace VL.IO.NetMQ
     {
         private Msg msg;
 
-        public ReadOnlyMemory<byte> ReceiveFrame(IReceivingSocket socket, out bool more)
+        public ArraySegment<byte> ReceiveFrame(IReceivingSocket socket, out bool more)
         {
             if (msg.IsInitialised)
                 msg.Close();
@@ -21,7 +21,8 @@ namespace VL.IO.NetMQ
 
             more = msg.HasMore;
 
-            return msg.Data.AsMemory(msg.Offset, msg.Size);
+            //return msg.Data.AsMemory(msg.Offset, msg.Size);
+            return new ArraySegment<byte>(msg.Data, msg.Offset, msg.Size);
         }
 
         public void Dispose()

@@ -1,15 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
-    <LangVersion>latest</LangVersion>
-    <OutputPath>..\lib</OutputPath>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <UserSecretsId>4219f36f-077a-4d6c-906d-02cde573b5d5</UserSecretsId>
+    <BaseOutputPath>..\lib</BaseOutputPath>
   </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="NetMQ">
-      <Version>4.0.1.6</Version>
-    </PackageReference>
-    <PackageReference Include="VL.Core" Version="2021.3.2" Pack="false" />
+    <PackageReference Include="NetMQ" Version="4.0.1.8" />
+    <PackageReference Include="VL.Core" Version="2021.4.9" />
   </ItemGroup>
+
 </Project>
