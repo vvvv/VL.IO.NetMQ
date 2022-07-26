@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <UserSecretsId>4219f36f-077a-4d6c-906d-02cde573b5d5</UserSecretsId>
-    <BaseOutputPath>..\lib</BaseOutputPath>
+    <OutputPath>..\lib</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetMQ" Version="4.0.1.8" />
-    <PackageReference Include="VL.Core" Version="2021.4.9" />
+    <PackageReference Include="NetMQ" Version="4.0.1.9" />
+    <PackageReference Include="VL.Core" Version="2021.4.10" />
   </ItemGroup>
 
 </Project>
