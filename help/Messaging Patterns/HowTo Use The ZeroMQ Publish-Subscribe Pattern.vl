@@ -171,7 +171,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="Tc3KZSrl3YTNASeDk2CBkq" Comment="On Data" Bounds="576,358,35,35" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="482,393,230,198" Id="HOT2bhf8OaYMijxJEBTLA4">
+          <Node Bounds="482,424,230,168" Id="HOT2bhf8OaYMijxJEBTLA4">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -182,7 +182,7 @@
               <Patch Id="Kc9g7FZd2XcPirLdzImFgk" Name="Create" ManuallySortedPins="true" />
               <Patch Id="VC0r1RSFGGjPMF4HIlKX0E" Name="Update" ManuallySortedPins="true" />
               <Patch Id="F1Ioh43IVfGMzCB5DpIQSH" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="494,417,73,26" Id="BTWBsWy3ScULPRPxjoB1AK">
+              <Node Bounds="494,447,73,26" Id="BTWBsWy3ScULPRPxjoB1AK">
                 <p:NodeReference LastCategoryFullName="IO.NetMQ.PubSubMessage" LastSymbolSource="VL.IO.NetMQ.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="PubSubMessage" />
@@ -192,7 +192,7 @@
                 <Pin Id="QEmUgk0knIgQWWQSdB9xFm" Name="Topic" Kind="OutputPin" />
                 <Pin Id="SqgXi5BWtNrQJ55WY1bDNu" Name="Data" Kind="OutputPin" />
               </Node>
-              <Node Bounds="562,459,80,19" Id="MaGiGEsEldPMwRN4kCi8CM">
+              <Node Bounds="562,489,80,19" Id="MaGiGEsEldPMwRN4kCi8CM">
                 <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
@@ -203,7 +203,7 @@
                 <Pin Id="DSQQ8P5RYbyNcpY7rFgxER" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="N8iqHOWwOyRLRY235cAiwf" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="637,506,63,19" Id="AU05zWh4s0oQRMfp3zHwZT">
+              <Node Bounds="637,536,63,19" Id="AU05zWh4s0oQRMfp3zHwZT">
                 <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="FromBytes" />
@@ -214,7 +214,7 @@
                 <Pin Id="GXm3Js1hSzdQNnbhK1AuM9" Name="Result" Kind="OutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="Kbb2C4k5lwaN4kW3Q857It" Bounds="496,400" Alignment="Top" />
+            <ControlPoint Id="Kbb2C4k5lwaN4kW3Q857It" Bounds="496,430" Alignment="Top" />
             <ControlPoint Id="VpksL9YORT8McULyPjI409" Bounds="496,585" Alignment="Bottom" />
             <ControlPoint Id="RiNxRgWy1glMBFWOA0v8Yf" Bounds="639,585" Alignment="Bottom" />
           </Node>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" Id="IyPorNcQYW1MsT6AyQjra4" LanguageVersion="2021.4.10.1043" Version="0.128">
   <NugetDependency Id="ReKkiaX6YtgPDaZ6uNFni3" Location="VL.CoreLib" Version="2021.4.10" />
-  <PlatformDependency Id="Js6DMaF8KelPW8UcnSv3sD" Location="./lib/net472/VL.IO.NetMQ.dll" />
   <NugetDependency Id="FIWuAlSfxxXNgNWN3keyDk" Location="NetMQ" Version="4.0.1.9" />
   <Patch Id="NHg5NVa32adL18Mo9Az8ZW">
     <Canvas Id="MGL9rOTfYRMMapym9ZgI5D" DefaultCategory="IO.NetMQ" CanvasType="FullCategory">
@@ -1955,4 +1954,5 @@
     </Node>
   </Patch>
   <PlatformDependency Id="NdIqaJ4NfibL8Ij79uvGzC" Location="netstandard" />
+  <PlatformDependency Id="GdpG6YKMX6kPe8W8eQeEph" Location="./lib/netstandard2.0/VL.IO.NetMQ.dll" />
 </Document>
